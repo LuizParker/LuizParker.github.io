@@ -3,7 +3,7 @@
 </script>
 
 <nav>
-	<a href="/+page.svelte">Inicio</a>
+	<a href="/Inicio">Inicio</a>
 	<a href="/Cotação">Dinheiro</a>
 	<a href="/Boletim">Nota</a>
 	<a href="/Idade">Idade</a>
