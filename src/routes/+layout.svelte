@@ -2,7 +2,7 @@
 	let { children } = $props();
 </script>
 
-<nav>
+<!-- <nav>
 	<a href="/Inicio">Inicio</a>
 	<a href="/Cotação">Dinheiro</a>
 	<a href="/Boletim">Nota</a>
@@ -16,7 +16,6 @@
 	<a href="/Loja">Lojinha</a>
 	<a href="/09">filmes</a>
 	<a href="/Compras">carrinho</a>
-	
-</nav>
+</nav> -->
 
 {@render children()}	
