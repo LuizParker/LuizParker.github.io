@@ -9,28 +9,52 @@
       <ul>
         <li><a href="/about">História</a></li>
         <li><a href="/characters">Personagens</a></li>
+        <li><a href="/transformations">Transformações</a></li>
       </ul>
     </nav>
   </main>
   
   <style>
     .home-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background-color: #f39c12;
+      color: white;
       text-align: center;
-      padding: 20px;
     }
+  
     h1 {
-      color: #f39c12;
+      font-size: 3rem;
+      margin-bottom: 20px;
     }
+  
+    p {
+      font-size: 1.25rem;
+      margin-bottom: 30px;
+    }
+  
     nav ul {
       list-style-type: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 15px;
     }
-    nav ul li {
-      display: inline;
-      margin: 0 15px;
-    }
+  
     nav ul li a {
+      color: #fff;
+      background-color: #3498db;
+      padding: 10px 15px;
+      border-radius: 8px;
       text-decoration: none;
-      color: #3498db;
+      transition: background-color 0.3s ease;
+    }
+  
+    nav ul li a:hover {
+      background-color: #2ecc71;
     }
   </style>
   

@@ -17,5 +17,4 @@
 	<a href="/09">filmes</a>
 	<a href="/Compras">carrinho</a>
 </nav> -->
-
 {@render children()}	

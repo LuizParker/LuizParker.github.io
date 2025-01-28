@@ -1,0 +1,187 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Definição de estilos globais */
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #3498db;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #2ecc71;
+  }
+  
+  h1, h2, h3 {
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Containers e layouts */
+  main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  /* Navbar (menu de navegação) */
+  nav ul {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    font-weight: 600;
+    color: #333;
+  }
+  
+  nav ul li a:hover {
+    color: #e74c3c;
+  }
+  
+  /* Estilo para Home */
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+    background-color: #f39c12;
+    color: white;
+  }
+  
+  .home-container h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .home-container p {
+    font-size: 1.25rem;
+    margin-bottom: 30px;
+  }
+  
+  .home-container nav {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilo para About (História) */
+  .about-container {
+    background-color: #fff;
+    padding: 40px;
+    margin-top: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .about-container p {
+    font-size: 1.125rem;
+    line-height: 1.8;
+    margin-bottom: 20px;
+  }
+  
+  .about-container a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #3498db;
+    color: white;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .about-container a:hover {
+    background-color: #2ecc71;
+  }
+  
+  /* Estilo para Characters */
+  .characters-container {
+    background-color: #fff;
+    padding: 40px;
+    margin-top: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  .characters-container ul {
+    margin-top: 20px;
+  }
+  
+  .characters-container li {
+    background-color: #f1f1f1;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .characters-container li:hover {
+    background-color: #e1e1e1;
+  }
+  
+  .characters-container a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #3498db;
+    color: white;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .characters-container a:hover {
+    background-color: #2ecc71;
+  }
+  
+  /* Responsividade */
+  @media (max-width: 768px) {
+    .home-container h1 {
+      font-size: 2.5rem;
+    }
+  
+    .about-container, .characters-container {
+      padding: 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .home-container h1 {
+      font-size: 2rem;
+    }
+  
+    nav ul {
+      flex-direction: column;
+    }
+  
+    nav ul li {
+      margin: 10px 0;
+    }
+  }
+  
